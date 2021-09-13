@@ -11,4 +11,6 @@ $CC -c stack.c
 
 $FC *.o
 
+ulimit -s unlimited
+
 ./a.out
