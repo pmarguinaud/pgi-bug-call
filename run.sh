@@ -10,7 +10,6 @@ rm -f a.out *.o *.mod
 
 $FC -c dist_grid_ctl_mod.F90
 $FC -c master.F90 
-$CC -c stack.c
 
 $FC *.o
 
