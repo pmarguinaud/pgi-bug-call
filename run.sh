@@ -15,4 +15,4 @@ $FC *.o
 
 ulimit -s unlimited
 
-gdb -ex=run --args ./a.out
+gdb --ex=run --args ./a.out
